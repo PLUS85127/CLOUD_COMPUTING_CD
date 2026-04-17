@@ -15,3 +15,5 @@ steps:
   - --allow-unauthenticated
 images:
 - 'us-central1-docker.pkg.dev/cc26caleph/repo-lab/app:latest'
+options:
+  logging: CLOUD_LOGGING_ONLY
